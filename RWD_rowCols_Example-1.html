@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Komal Karir" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="web development code" />
+		<meta name="keywords" content="HTML, HTML5,CSS, CSS3, JavaScript" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="icon" type="image/x-icon" href="assets/images/letterK.ico" />
+		<title>Code4All</title>
+	</head>
+
+	<style>
+		/* apply to all elements */
+		* {
+			box-sizing: border-box;
+		}
+
+		div {
+			margin-bottom: 2px;
+		}
+		div > h2 {
+			color: black;
+		}
+		.red {
+			background-color: palevioletred;
+		}
+
+		.green {
+			background-color: palegreen;
+		}
+		.blue {
+			background-color: paleturquoise;
+		}
+		.yellow {
+			background-color: palegoldenrod;
+		}
+		/* The outer row container */
+		/* .row::after {
+			content: "ssssssssss";
+			clear: both;
+			display: table;
+		} */
+    .raw{
+		height: 100px;
+	}
+
+		/* Start with 4 columns, 25% width */
+		.column {
+			width: 25%;
+			float: left;
+			padding: 5px;
+		}
+
+		/* Drop down to 2 columns for tablet sizes, 50% width */
+		@media screen and (max-width: 768px) {
+			.column {
+				width: 50%;
+			}
+		}
+		/* Drop down further to 1 column for smart phone sizes, 100% width */
+		@media screen and (max-width: 480px) {
+			.column {
+				width: 100%;
+			}
+		}
+	</style>
+
+	<body>
+		<!-- insert standard header -->
+		<embed
+			type="text/html"
+			src="assets/embedCode/stdHeader.html"
+			width="100%"
+		/>
+
+		<main>
+			<h2>RWD Example Using Rows and Columns</h2>
+			<h3>
+				Resize your browser and see the columns drop down to 2 columns and then
+				1 column.
+			</h3>
+
+			<div>
+				<!-- 4 column row -->
+				<div class="row">
+					<div class="column red">
+						<h2>Row 1, Col 1</h2>
+						<p>Some text..</p>
+					</div>
+					<div class="column yellow">
+						<h2>Row 1,Col 2</h2>
+						<p>Some text..</p>
+					</div>
+
+					<div class="column blue">
+						<h2>Row 1,Col 3</h2>
+						<p>Some text..</p>
+					</div>
+
+					<div class="column green">
+						<h2>Row 1,Col 4</h2>
+						<p>Some text..</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column red">
+						<h2>Row 2,Col 1</h2>
+						<p>Some text..</p>
+					</div>
+					<div class="column yellow">
+						<h2>Row 2,Col 2</h2>
+						<p>Some text..</p>
+					</div>
+
+					<div class="column blue">
+						<h2>Row 2,Col 3</h2>
+						<p>Some text..</p>
+					</div>
+
+					<div class="column green">
+						<h2>Row 2,Col 4</h2>
+						<p>Some text..</p>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- insert standard footer -->
+		<embed
+			type="text/html"
+			src="assets/embedCode/stdFooter.html"
+			width="100%"
+		/>
+	</body>
+</html>

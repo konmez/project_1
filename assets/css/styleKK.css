@@ -1,0 +1,115 @@
+/* General purpose style-sheet  */
+
+/* define variables for general use */
+:root {
+	--bgColor: whitesmoke;
+	--bgColorStrong: darkblue;
+	--bgColorLight: rgb(191, 238, 222);
+	--bgColorPale: lightyellow;
+	--txtColor: slategray;
+	--txtColorDark: darkblue;
+	--txtColorHi: violet;
+}
+
+/* These styles will apply to the everything, unless over-ridden */
+* {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* These styles will apply to the everything, unless over-ridden */
+body {
+	background-color: var(--bgColor);
+	color: var(--txtColor);
+}
+
+h1 {
+	color: var(--txtColor);
+}
+
+h2 {
+	color: var(--txtColorHi);
+}
+
+h3 {
+	color: var(--txtColorDark);
+}
+
+p {
+	color: var(--txtColorDark);
+}
+button {
+	transition-duration: 0.4s;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--bgColor); /* reverse the fore ground and background colors */
+	background-color: var(--txtColor);
+}
+
+thead {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+tr:nth-child(even) {
+	background-color: var(--bgColorPale);
+}
+
+button {
+	color: var(--txtColor);
+	background-color: var(--bgColor);
+	font-weight: bold;
+	border-radius: 5px;
+}
+button:hover {
+	color: var(--bgColor); /* reverse the fore ground and background colors */
+	background-color: var(--txtColor);
+	box-shadow: 0 0 5px 5px var(--bgColorLight); /* add a little shadow */
+}
+
+/* Style <pre> with a slightly larger font size */
+pre {
+	font-size: large;
+}
+
+/* Style <code> with a background color and larger font size */
+code {
+	background-color: var(--bgColorPale);
+	/* font-size: larger; */
+}
+
+/* style the DIV that shows the HTML code */
+.coding {
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: var(--bgColorLight);
+}
+
+/* style the DIV that shows the resulting output from the HTML code */
+.result {
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: var(--bgColorLight);
+}
+
+/* this turns block elements to in-line elements */
+.inline {
+	display: inline-block;
+}
+
+/* style the Heading and Nav bar to stay at the top of the page */
+#fixedNav {
+	text-align: left;
+	border: 1px solid var(--bgColorStrong);
+	width: 100%;
+	padding: 1rem;
+	position: fixed;
+	top: 0px;
+	left: 1px;
+	background-color: var(--bgColorLight);
+}

@@ -24,16 +24,28 @@
   <!--  Header-->
     <header >
       <a href="index.html">
-        <h1 id="logo">Love Running</h1>
+        <h1 id="logo">Lifehack Indeed</h1>
       </a>
       <input type="checkbox" id="nav-toggled" name="nav-toggled">
       <label for="nav-toggled" class="nav-toggled-label"><i class="fa-solid fa-bars"></i></label>
       <nav>
         <ul id="menu" >
           <li> <a href="index.html"  >Home</a> </li>
-          <li><a href="gallery.html"  >Gallery</a></li>
-          <li><a href="signup.html" class="active">Contact</a></li>
+          <li>
+            
+            <label for="cat-toggled" class="cat-toggled-label">Category</label>
+            <input type="checkbox" id="cat-toggled" name="cat-toggled" >
+              <ul id="cat-menu">
+                <li><a href="diy.html"  >DIY</a></li>
+                <li><a href="kitchen.html"  >Kitchen</a></li>
+                <li><a href="household.html"  >Household</a></li>
+                <li><a href="other.html"  >Other</a></li>  
+              </ul>
+  
+          </li>
+          <li><a href="contact.html"  class="active" >Contact</a></li>
         </ul>
+  
       </nav>
     </header>
 

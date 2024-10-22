@@ -31,6 +31,10 @@ h1,h2,h3,h4,h5 {
     display: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -316,7 +320,8 @@ main {
 
 /* category buttons */
 #diy{     
-     background: url(../images/diy_sam-clarke-ZEfFgaXVaV4-unsplash.jpg) no-repeat center  center/cover;        
+     background: url(../images/diy_sam-clarke-ZEfFgaXVaV4-unsplash.jpg) no-repeat center  center/cover;  
+       
     }
 #kitchen{
     background: url(../images/kitchen_viswaprem-anbarasapandian-4HZXmvW3PpY-unsplash.jpg) no-repeat center  center/cover;
@@ -336,18 +341,17 @@ main {
         width: 100%;        
         display: flex;
         text-align: center;
-        justify-content: center;   
-       
+        justify-content: center;         
      }
      
 .unit-box h2{
-         align-self: center;    
+         align-self: center;  
      }
      
 
 .row{
     display: flex;  
-    flex-wrap: wrap;     
+    flex-wrap: wrap;    
 }
 
 .categories-col, .example, .example-review{
@@ -355,15 +359,24 @@ main {
     /* float: left; */
     padding: 5px;    
     min-height:150px;    
-    
     max-height: 200px;
     
     }
 
 
-    .row a:hover{
-        border: 1px solid rgba(241,109, 107, 0);       
-    }
+.row :hover{
+    background-color:  rgba(60, 60, 60,0.4);
+    /* border: 3px solid red; */
+        }
+
+.unit-box :hover{
+    /* border: 3px solid red; */
+}
+
+    .categories-col :hover{
+        
+        /* border: 3px solid red; */
+    }  
 
     .construction {
         height: 90vh;
@@ -479,7 +492,7 @@ main{
 }
 
 .text-input:hover{
-    border-color: #f16c6b;
+    border-color: #070000;
 } 
 
 .join-button:hover{

@@ -372,19 +372,9 @@ main {
     }
 
 
-.row :hover{
+.click-it :hover{
     background-color:  rgba(60, 60, 60,0.4);
-    /* border: 3px solid red; */
-        }
-
-.unit-box :hover{
-    /* border: 3px solid red; */
 }
-
-    .categories-col :hover{
-        
-        /* border: 3px solid red; */
-    }  
 
     .construction {
         height: 90vh;

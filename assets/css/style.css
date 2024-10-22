@@ -203,7 +203,7 @@ main {
     height: 90vh;
     width: 90vh;
     margin: 20px 20px;
-    background: url(../images/kitten-4321163_1920.jpg) no-repeat center  center/cover;    
+    background: url(../images/kitten_smaller.jpg) no-repeat center  center/cover;    
     border-radius: 20%;
     max-width: 350px;
     max-height: 350px;
@@ -328,18 +328,18 @@ main {
 
 /* category buttons */
 #diy{     
-     background: url(../images/diy_sam-clarke-ZEfFgaXVaV4-unsplash.jpg) no-repeat center  center/cover;  
+     background: url(../images/diy_sam-clarke_unsplash_smaller.jpg) no-repeat center  center/cover;  
        
     }
 #kitchen{
-    background: url(../images/kitchen_viswaprem-anbarasapandian-4HZXmvW3PpY-unsplash.jpg) no-repeat center  center/cover;
+    background: url(../images/kitchen_viswaprem-anbarasapandian_unsplash\ _smaller.jpg) no-repeat center  center/cover;
 
 }    
 #household{
-    background: url(../images/household_emmanuel-ikwuegbu-FXpJW_wdMdk-unsplash.jpg) no-repeat center  center/cover;   
+    background: url(../images/household_emmanuel-ikwuegbu-FXpJW_wdMdk-unsplash\ -_smaller.jpg) no-repeat center  center/cover;   
 }
 #other{
-    background: url(../images/other_samantha-gades-LA6XfeVI5_c-unsplash.jpg) no-repeat center  center/cover;  
+    background: url(../images/other_samantha-gades-LA6XfeVI5_c-unsplash_smaller.jpg) no-repeat center  center/cover;  
 }
 
 

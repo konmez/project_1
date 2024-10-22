@@ -297,6 +297,10 @@ main {
     padding: 0 5px;
     height: 25px;
     margin: 5px 0 20px 0;
+
+    font-family: 'Oswald', sans-serif;   
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 .msg-input{
@@ -306,7 +310,11 @@ main {
     width: 100%;   
     padding: 0 5px;    
     margin: 5px 0 20px 0;
+    
 
+    font-family: 'Oswald', sans-serif;   
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 .join-button{

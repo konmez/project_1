@@ -6,3 +6,6 @@ Snippet from amiresponsive :
 
 Snippet about perfomance :
 <img src="./assets/images/perfomance_snip.JPG">
+
+
+

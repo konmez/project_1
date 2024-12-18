@@ -44,4 +44,9 @@ A simple, clean, responsive webpage template with basic HTML and CSS styling.
 
 ## Credits
 - Used some code & design ideas  as template from Code Institute 'LoveRuning ' project
+This project includes work from the following sources:
 
+- Original template design by [Code Institute](LoveRuning)
+- Icons from [Font Awesome](https://fontawesome.com) 
+- Images from [Unsplash](https://unsplash.com)
+ 
